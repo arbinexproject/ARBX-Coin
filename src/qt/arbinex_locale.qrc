@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/arbinex_bg.qm</file>
+        <file alias="ca">locale/arbinex_ca.qm</file>
+        <file alias="cs">locale/arbinex_cs.qm</file>
+        <file alias="da">locale/arbinex_da.qm</file>
+        <file alias="de">locale/arbinex_de.qm</file>
+        <file alias="en">locale/arbinex_en.qm</file>
+        <file alias="en_US">locale/arbinex_en_US.qm</file>
+        <file alias="es">locale/arbinex_es.qm</file>
+        <file alias="fi">locale/arbinex_fi.qm</file>
+        <file alias="fr_FR">locale/arbinex_fr_FR.qm</file>
+        <file alias="hr">locale/arbinex_hr.qm</file>
+        <file alias="it">locale/arbinex_it.qm</file>
+        <file alias="ja">locale/arbinex_ja.qm</file>
+        <file alias="ko_KR">locale/arbinex_ko_KR.qm</file>
+        <file alias="nl">locale/arbinex_nl.qm</file>
+        <file alias="pl">locale/arbinex_pl.qm</file>
+        <file alias="pt">locale/arbinex_pt.qm</file>
+        <file alias="pt_BR">locale/arbinex_pt_BR.qm</file>
+        <file alias="ro_RO">locale/arbinex_ro_RO.qm</file>
+        <file alias="ru">locale/arbinex_ru.qm</file>
+        <file alias="sk">locale/arbinex_sk.qm</file>
+        <file alias="sv">locale/arbinex_sv.qm</file>
+        <file alias="tr">locale/arbinex_tr.qm</file>
+        <file alias="uk">locale/arbinex_uk.qm</file>
+        <file alias="zh_CN">locale/arbinex_zh_CN.qm</file>
+        <file alias="zh_TW">locale/arbinex_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,11 @@
+[Protocol]
+exec=arbinex-qt '%u'
+protocol=arbinex
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

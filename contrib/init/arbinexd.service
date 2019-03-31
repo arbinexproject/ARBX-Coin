@@ -1,0 +1,26 @@
+[Unit]
+Description=Arbinex's distributed currency daemon
+After=network.target
+
+[Service]
+User=arbinex
+Group=arbinex
+
+Type=forking
+PIDFile=/var/lib/arbinexd/arbinexd.pid
+
+ExecStart=/usr/bin/arbinexd -daemon -pid=/var/lib/arbinexd/arbinexd.pid \
+          -conf=/etc/arbinex/arbinex.conf -datadir=/var/lib/arbinexd
+
+ExecStop=-/usr/bin/arbinex-cli -conf=/etc/arbinex/arbinex.conf \
+         -datadir=/var/lib/arbinexd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
