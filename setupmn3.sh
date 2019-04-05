@@ -10,8 +10,8 @@ COIN_REPO=''
 COIN_TGZ='https://github.com/arbinexproject/ARBX-Coin/releases/download/V1.0/arbinex-linux.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='ArbiNex'
-COIN_PORT=19872 #Updated Port
-RPC_PORT=16801
+COIN_PORT=16801 #Updated Port
+RPC_PORT=19872
 
 NODEIP=$(curl -s4 icanhazip.com)
 
