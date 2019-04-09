@@ -15,6 +15,10 @@ RPC_PORT=19872
 
 NODEIP=$(curl -s4 icanhazip.com)
 
+killall arbinexd
+cd /usr/local/bin/
+rm -rf arbinexd*
+cd ~
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
