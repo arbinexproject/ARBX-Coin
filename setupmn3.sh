@@ -20,10 +20,6 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m'
 
-killall volixd
-cd /usr/local/bin/
-rm -rf volix*
-cd ~
 
 function compile_node() {
   echo -e "Prepare to compile $COIN_NAME"
